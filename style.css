@@ -41,3 +41,13 @@ p{
 body{
     width: 100%;
 }
+
+/* Header start */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 80px;
+    background: aliceblue;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
