@@ -59,6 +59,7 @@ body{
 #navbar li{
     list-style: none;
     padding: 0 20px;
+    position: relative;
     }
     
     #navbar li a{
@@ -70,10 +71,12 @@ body{
     }
 
     #navbar li a:hover,
-    #navbar li a.active{
+    #navbar li a.active{ 
         color: #088178;
     }
-    #navbar li a.active::after{
+    #navbar li a.active::after,
+    #navbar li a:hover::after
+    {
         content: "";
         width:30%;
         height:2px;
@@ -82,3 +85,7 @@ body{
         bottom: -4px;
         left:20px;
     }
+                /* HomePage */
+#model{
+background-image: url("img/hero4.png");
+}
