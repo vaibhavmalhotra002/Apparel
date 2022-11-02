@@ -63,7 +63,7 @@ body{
     
     #navbar li a{
         text-decoration: none;
-        font-size: 16px;
+        font-size: 22px;
         font-weight: 600;
         color: #1a1a1a;
         transition: 0.3s ease-in;
@@ -77,7 +77,7 @@ body{
         content: "";
         width:30%;
         height:2px;
-        background: #088178;
+        background: #0c938a;
         position: absolute;
         bottom: -4px;
         left:20px;
